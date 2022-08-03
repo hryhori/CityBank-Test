@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29906c31.css",
+    "main.js": "/static/js/main.9ec03037.js",
+    "static/js/787.106f446a.chunk.js": "/static/js/787.106f446a.chunk.js",
+    "static/media/Фон.png": "/static/media/Фон.cfc00e8e42ce84110475.png",
+    "index.html": "/index.html",
+    "main.29906c31.css.map": "/static/css/main.29906c31.css.map",
+    "main.9ec03037.js.map": "/static/js/main.9ec03037.js.map",
+    "787.106f446a.chunk.js.map": "/static/js/787.106f446a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29906c31.css",
+    "static/js/main.9ec03037.js"
+  ]
+}
