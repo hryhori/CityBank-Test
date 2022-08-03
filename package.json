@@ -1,5 +1,6 @@
 {
-  "name": "test-work",
+  "name": "citybank-test",
+  "homepage": "https://hryhori.github.io/CityBank-Test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
