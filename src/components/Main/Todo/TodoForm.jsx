@@ -18,7 +18,7 @@ function TodoForm(){
         validationSchema={validation}>
         {({values,errors,handleSubmit,handleChange}) => (
             <div className={s.todo_form}>
-                <label>Todo</label>
+                <label className={s.todo_label}>Todo</label>
                 <input
                         className={`${s.inputStyle} ${
                           errors.todoItem && s.inputError

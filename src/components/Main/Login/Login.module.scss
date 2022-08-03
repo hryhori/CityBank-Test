@@ -159,6 +159,10 @@ button:hover{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    height: 53px;
+    width: 421px;
+    border: 1px solid #9A9A9A;
+    margin-top: 7px;
 }
 
 .login_btn{
@@ -174,12 +178,6 @@ button:hover{
     border: none;
 }
 
-input{
-    height: 53px;
-    width: 421px;
-    border: 1px solid #9A9A9A;
-    margin-top: 7px;
-}
 label{
     font-family: $RobotoFont;
     font-weight: 300;

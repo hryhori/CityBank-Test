@@ -2,7 +2,7 @@ import s from './Todo.module.scss';
 import logo from '../../../images/logo.png';
 import { useSelector } from 'react-redux';
 import TodoForm from './TodoForm';
-import TodoItem from './TodoItem';
+import TodoItem from './TodoItem/TodoItem';
 
 function Todo(){
     let name = useSelector(state=>state.root.userData.username)
