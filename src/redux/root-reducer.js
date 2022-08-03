@@ -22,7 +22,7 @@ const RootReducer = createSlice({
             toggleTodo.isChecked = !toggleTodo.isChecked;
         },
         deleteTodo: (state, action) =>{
-          state.todoList =  state.todoList.filter(todo=>todo.id!=action.payload);
+          state.todoList =  state.todoList.filter(todo=>todo.id!==action.payload);
         }
     }
 })
