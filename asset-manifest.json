@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CityBank-Test/static/css/main.447fd99a.css",
-    "main.js": "/CityBank-Test/static/js/main.c55df54f.js",
+    "main.css": "/CityBank-Test/static/css/main.b089a67e.css",
+    "main.js": "/CityBank-Test/static/js/main.48066f6e.js",
     "static/js/787.babe2b5d.chunk.js": "/CityBank-Test/static/js/787.babe2b5d.chunk.js",
     "static/media/Фон.png": "/CityBank-Test/static/media/Фон.cfc00e8e42ce84110475.png",
     "index.html": "/CityBank-Test/index.html",
-    "main.447fd99a.css.map": "/CityBank-Test/static/css/main.447fd99a.css.map",
-    "main.c55df54f.js.map": "/CityBank-Test/static/js/main.c55df54f.js.map",
+    "main.b089a67e.css.map": "/CityBank-Test/static/css/main.b089a67e.css.map",
+    "main.48066f6e.js.map": "/CityBank-Test/static/js/main.48066f6e.js.map",
     "787.babe2b5d.chunk.js.map": "/CityBank-Test/static/js/787.babe2b5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.447fd99a.css",
-    "static/js/main.c55df54f.js"
+    "static/css/main.b089a67e.css",
+    "static/js/main.48066f6e.js"
   ]
 }
