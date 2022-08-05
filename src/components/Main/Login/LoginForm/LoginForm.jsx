@@ -41,7 +41,7 @@ function LoginForm(){
               <div className={s.login_input_container}>
                 <div className={s.abc}>
                   <div className={s.login_input}>
-                    <label>
+                    <label className={s.labelStyle}>
                       Name
                       <input
                         className={`${s.inputStyle} ${
@@ -63,7 +63,7 @@ function LoginForm(){
                     )}
                   </div>
                   <div className={s.password_input}>
-                    <label>
+                    <label className={s.labelStyle}>
                       Password
                       <input
                         className={`${s.inputStyle} ${

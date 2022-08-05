@@ -5,11 +5,12 @@
     background-size: auto 50%;
     background-repeat: no-repeat;
     display: grid;
-    grid-template: auto / 6fr 4fr;
+    grid-template-areas: "a a a a a a b b b b ";
     grid-column-gap: 16px;
 }
 
 .business_container{
+    grid-area: a;
     display: flex;
     margin: 250px auto 0 auto;
     padding-left: 30px;
@@ -57,6 +58,7 @@
 }
 
 .login_container{
+    grid-area: b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,7 +189,7 @@ label{
 
 @media (max-width: 1200px){
     .login_wrapper{
-        grid-template: auto auto / auto;
+        grid-template: "a" "b"
     }
     .business_container{
         margin-top: 0 ;
@@ -219,9 +221,9 @@ label{
 
 }
 
-@media (max-width: 675px){
+@media (min-width:525px) and (max-width: 675px){
     .business_container{
-        margin-top: 15px ;
+        margin-top: 15px;
         padding: 0 40px;
         .welcome_text{
             line-height: 25px;
@@ -246,17 +248,65 @@ label{
             }
         }
     }
-    .login_container{
-        margin: 25px;
-        .login_form{
-            margin: auto;
-            .login_input_container{
-                padding: 0;
-                .abc{
-                    margin: 25px;
+
+}
+
+@media (max-width: 525px){
+    .login_wrapper{
+        grid-template-areas: "b" "a";
+        grid-template-rows: 1fr 1fr; 
+    }
+    .login_form{
+        max-width: 300px;
+        .login_input_container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .abc{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                }
+                .login_input{
+                    max-width: 250px;
+                    .labelStyle{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .inputStyle{
+                        width: 250px;
+                        padding: 0;
+                    }
+                }
+                .password_input{
+                    .labelStyle{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .inputStyle{
+                        width: 250px;
+                        padding: 0;
+                    }
+                }
+                .submit_container{
+                    .login_btn{
+                        max-width: 250px;
+                    }
                 }
             }
         }
+    .register_container{
+        max-width: 300px;
     }
-
+    .business_container{
+        .welcome_text{
+            color: #333333; 
+            text-shadow: none;
+        }
+        .business_analytics p{
+            color: #333333;
+        }
+    }
 }
