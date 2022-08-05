@@ -106,3 +106,22 @@
         margin: auto;
     }
 }
+
+@media (max-width: 800px) {
+    .main_block{
+        .text{
+            font-size: 20px;
+        }
+        .todo_block{
+            .todo_form{
+                padding: 0 30px;
+                .inputStyle{
+                    width: 90%;
+                }
+                .submit_button{
+                    padding: 4px 14px;
+                }
+            }
+        }
+    }
+}

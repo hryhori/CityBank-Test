@@ -34,7 +34,7 @@ function TodoForm(){
                         {errors.todoItem}
                       </div>
                     )}
-                    <button onClick={handleSubmit} type='submit'>Submit</button>
+                    <button onClick={handleSubmit} type='submit' className={s.submit_button}>Submit</button>
             </div>
         )
         }
