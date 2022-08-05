@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CityBank-Test/static/css/main.b089a67e.css",
-    "main.js": "/CityBank-Test/static/js/main.48066f6e.js",
+    "main.css": "/CityBank-Test/static/css/main.b96577c6.css",
+    "main.js": "/CityBank-Test/static/js/main.77661a65.js",
     "static/js/787.babe2b5d.chunk.js": "/CityBank-Test/static/js/787.babe2b5d.chunk.js",
     "static/media/Фон.png": "/CityBank-Test/static/media/Фон.cfc00e8e42ce84110475.png",
     "index.html": "/CityBank-Test/index.html",
-    "main.b089a67e.css.map": "/CityBank-Test/static/css/main.b089a67e.css.map",
-    "main.48066f6e.js.map": "/CityBank-Test/static/js/main.48066f6e.js.map",
+    "main.b96577c6.css.map": "/CityBank-Test/static/css/main.b96577c6.css.map",
+    "main.77661a65.js.map": "/CityBank-Test/static/js/main.77661a65.js.map",
     "787.babe2b5d.chunk.js.map": "/CityBank-Test/static/js/787.babe2b5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b089a67e.css",
-    "static/js/main.48066f6e.js"
+    "static/css/main.b96577c6.css",
+    "static/js/main.77661a65.js"
   ]
 }
